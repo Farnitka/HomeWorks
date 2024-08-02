@@ -1,0 +1,8 @@
+my_string = input('Введи любой текст: ')
+print('Супер! Количество введенных тобой символов равно: ', len(my_string))
+print('- в верхнем регистре:', my_string.upper())
+print('- в нижнем регистре:', my_string.lower())
+print('- без пробелов:', my_string.replace(' ',''))
+print('- первый символ:',my_string[0])
+print('- последний символ:', my_string[-1])
+print('Спасибо за проверку моих заданий. Хорошего дня')
