@@ -1,8 +1,7 @@
-name='это моя строка'
-print(name[0])
-print(name[-1])
-print(name[2:5])
-print(name[::-1])
-print(len(name))
-name2='это новая строка'
-print(name2+name)
+example = 'араб у колец лазил и пил'
+print(example[0])
+print(example[-1])
+str_len=len(example)//2
+print(example[str_len:])
+print(example[::-1])
+print(example[1::2])
